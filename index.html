@@ -17,6 +17,12 @@
         margin: 10px auto;
         text-align: center;
       }
+      .error{
+        border:2px solid red;
+      }
+      .success{
+        border:2px solid green;
+      }
     </style>
 </head>
 <body>
@@ -25,7 +31,7 @@
   </div>
     
     <form class="signupForm">
-      <input type="text" id="username" placeholder="Kullanıcı Adınızı Giriniz.">
+      <input type="text" id="username" name="username" placeholder="Kullanıcı Adınızı Giriniz.">
       <div class="message"></div>
       <input type="submit" value="kaydet">
     </form>
